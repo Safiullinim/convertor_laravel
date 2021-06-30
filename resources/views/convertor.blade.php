@@ -4,17 +4,7 @@
 
 @section('content')
 
-@if($errors->any())
-<div class="alert alert-danger">
-    <ul>
-        @foreach($errors->all() as $error)
-        <li>
-            {{ $error }}
-        </li>
-        @endforeach
-    </ul>
-</div>
-@endif
+
 
 <div class="container">
     <div class="row mt-3">
@@ -24,7 +14,7 @@
 
                     <div class="card-body">
                         <h5 class="card-title">Конвертор валют</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">by Safiullin Ilsat</h6>
+                        <h6 class="card-subtitle mb-2 text-muted">by Safiullin Ilshat</h6>
                         <div class="mt-3">
                             <div class="row">
                                 <div class="col">
